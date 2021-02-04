@@ -17,5 +17,5 @@ const newLiRefs = ingredients.map(text => {
   return itemRef;
 })
 
-const ul = document.querySelector('#ingredients');
-ul.append(...newLiRefs);
+const ingredientsList = document.querySelector('#ingredients');
+ingredientsList.append(...newLiRefs);
